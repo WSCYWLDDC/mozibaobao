@@ -1,7 +1,7 @@
 {
- "versionCode": 11,
- "versionName": "1.11",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-11.apk",
- "notes": "修复更新检查：改走 GitHub API 读版本清单。 raw 的 CDN 忽略查询参数，发版后几分钟内会读到旧清单，表现为「检查了却说已是最新」。 ",
+ "versionCode": 12,
+ "versionName": "1.12",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-12.apk",
+ "notes": "桌面小组件：平台少的时候内容垂直居中，不再在下方留一大块空白。 ",
  "size": 516198
 }
