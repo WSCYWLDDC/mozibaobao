@@ -1,7 +1,7 @@
 {
- "versionCode": 14,
- "versionName": "1.14",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-14.apk",
+ "versionCode": 15,
+ "versionName": "1.15",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-15.apk",
  "notes": "更新安装加校验： - 下载完先核对包里的 versionCode，比已装的旧就直接说明原因，不再让安装器抛\"已安装更高版本\" - 缓存包按版本号命名，不会覆盖或装到上一次残留的包 ",
- "size": 516198
+ "size": 520294
 }
