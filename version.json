@@ -1,7 +1,7 @@
 {
- "versionCode": 20,
- "versionName": "1.20",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-20.apk",
- "notes": "封面区加「诊断」按钮： 这个机器的 logcat 收不到 App 自己打的日志，所以把诊断做进界面。 点一下会列出封面每一项的类型、能否读取、MIME，以及背景音乐状态，可一键复制。 ",
+ "versionCode": 21,
+ "versionName": "1.21",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-21.apk",
+ "notes": "修复封面视频不播放： - onResume 里 activityResumed 置位晚于 render()，导致选完视频返回时新建的封面行   立刻被 pause，之后又因为「只在主页才恢复」的限定再也没恢复 - 现在封面行建好后主动按当前可见性对齐播放状态，不再依赖切到主页 ",
  "size": 524390
 }
