@@ -1,7 +1,7 @@
 {
- "versionCode": 8,
- "versionName": "1.8",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-8.apk",
+ "versionCode": 9,
+ "versionName": "1.9",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-9.apk",
  "notes": "新增：云端更新。启动自动检查，发现新版直接下载并弹出安装器。 更新源已迁到 GitHub，DSH 关掉也能更新。 ",
  "size": 507639
 }
