@@ -1,7 +1,7 @@
 {
- "versionCode": 24,
- "versionName": "1.24",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-24.apk",
- "notes": "新增「内置背景视频」开关（设置 → 自定义背景）： 播放打包在 App 里的示例视频，不依赖任何外部文件、URI 或权限。 这一版同时把渲染方式换成了 VideoView（SurfaceView 体系）， 和之前不显示的 TextureView 是两条完全不同的合成路径。 ",
+ "versionCode": 25,
+ "versionName": "1.25",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-25.apk",
+ "notes": "顶部大视频横幅： - 内置视频改成占屏幕约 38% 高度的大横幅（不低于 220dp），位于主页顶部 - 边缘圆角 22dp，容器和 VideoView 两层都设 outline（SurfaceView 的圆角只能靠自身 outline） - 设置里「内置背景视频」开关控制 ",
  "size": 2212007
 }
