@@ -1,7 +1,7 @@
 {
- "versionCode": 18,
- "versionName": "1.18",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-18.apk",
- "notes": "封面视频改为直接播放原文件（不复制）： - 之前会把视频复制进私有目录，超过 40MB 就整个删掉并拒绝，手机视频很容易超 - 现在直接播你选中的那个文件，多大都行，也不会卡住界面 - 同时保留 URI 读权限，重启后依然有效 ",
+ "versionCode": 19,
+ "versionName": "1.19",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-19.apk",
+ "notes": "封面区加「诊断」按钮： 这个机器的 logcat 收不到 App 自己打的日志，所以把诊断做进界面。 点一下会列出封面每一项的类型、能否读取、MIME，以及背景音乐状态，可一键复制。 ",
  "size": 524390
 }
