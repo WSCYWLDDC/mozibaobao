@@ -1,7 +1,7 @@
 {
- "versionCode": 13,
- "versionName": "1.13",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-13.apk",
- "notes": "更新检查更稳更透明： - 版本号改用 longVersionCode，读不到时跳过提示（不会退化成每次打开都弹） - 更新弹窗加「跳过此版」，不再反复打扰 - 设置页显示当前版本号，方便和提示里的数字对照 ",
+ "versionCode": 14,
+ "versionName": "1.14",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-14.apk",
+ "notes": "更新安装加校验： - 下载完先核对包里的 versionCode，比已装的旧就直接说明原因，不再让安装器抛\"已安装更高版本\" - 缓存包按版本号命名，不会覆盖或装到上一次残留的包 ",
  "size": 516198
 }
