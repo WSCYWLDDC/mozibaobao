@@ -1,7 +1,7 @@
 {
- "versionCode": 25,
- "versionName": "1.25",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-25.apk",
- "notes": "顶部大视频横幅： - 内置视频改成占屏幕约 38% 高度的大横幅（不低于 220dp），位于主页顶部 - 边缘圆角 22dp，容器和 VideoView 两层都设 outline（SurfaceView 的圆角只能靠自身 outline） - 设置里「内置背景视频」开关控制 ",
+ "versionCode": 26,
+ "versionName": "1.26",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-26.apk",
+ "notes": "修复视频四周的大黑边： - cropToFill 在 onPrepared 时容器还没布局，getWidth()=0 被保护判断挡掉，视频退回完整显示   → 改为 onPrepared 试一次 + post 到布局后补一次 + onSizeChanged 再补一次 - center-crop 的宽高判断写反了（那是 fit 不是 crop），竖屏视频放进偏宽容器会左右留黑   → 视频相对更高时铺满宽度、高",
  "size": 2212007
 }
