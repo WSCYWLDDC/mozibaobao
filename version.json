@@ -1,7 +1,7 @@
 {
- "versionCode": 23,
- "versionName": "1.23",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-23.apk",
- "notes": "封面视频去掉圆角裁剪（决定性修复）： 诊断显示 isPlaying=true —— 内容确实在播，但被父容器的裁剪吃掉了。 TextureView 由 SurfaceFlinger 单独合成，不走父容器常规绘制流程， clipToOutline 和 dispatchDraw+clipPath 两种裁剪下都是空白。 现在视频格不做裁剪，先保证能看见（代价是直角）。 ",
- "size": 524390
+ "versionCode": 24,
+ "versionName": "1.24",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-24.apk",
+ "notes": "新增「内置背景视频」开关（设置 → 自定义背景）： 播放打包在 App 里的示例视频，不依赖任何外部文件、URI 或权限。 这一版同时把渲染方式换成了 VideoView（SurfaceView 体系）， 和之前不显示的 TextureView 是两条完全不同的合成路径。 ",
+ "size": 2212007
 }
