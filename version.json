@@ -1,7 +1,7 @@
 {
- "versionCode": 19,
- "versionName": "1.19",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-19.apk",
+ "versionCode": 20,
+ "versionName": "1.20",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-20.apk",
  "notes": "封面区加「诊断」按钮： 这个机器的 logcat 收不到 App 自己打的日志，所以把诊断做进界面。 点一下会列出封面每一项的类型、能否读取、MIME，以及背景音乐状态，可一键复制。 ",
  "size": 524390
 }
