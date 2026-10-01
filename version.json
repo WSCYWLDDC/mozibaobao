@@ -1,7 +1,7 @@
 {
- "versionCode": 17,
- "versionName": "1.17",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-17.apk",
- "notes": "修复封面视频不显示： - 视频保存时保留真实扩展名（.mp4/.webm…），MediaPlayer 靠它挑解码器，   之前存成 .vid 会加载失败，而且失败是静默的 - 加上 MokoCover 日志，封面构建/加载失败现在有迹可循 ",
+ "versionCode": 18,
+ "versionName": "1.18",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-18.apk",
+ "notes": "封面视频改为直接播放原文件（不复制）： - 之前会把视频复制进私有目录，超过 40MB 就整个删掉并拒绝，手机视频很容易超 - 现在直接播你选中的那个文件，多大都行，也不会卡住界面 - 同时保留 URI 读权限，重启后依然有效 ",
  "size": 524390
 }
