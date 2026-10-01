@@ -1,7 +1,7 @@
 {
- "versionCode": 16,
- "versionName": "1.16",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-16.apk",
+ "versionCode": 17,
+ "versionName": "1.17",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-17.apk",
  "notes": "修复封面视频不显示： - 视频保存时保留真实扩展名（.mp4/.webm…），MediaPlayer 靠它挑解码器，   之前存成 .vid 会加载失败，而且失败是静默的 - 加上 MokoCover 日志，封面构建/加载失败现在有迹可循 ",
- "size": 520294
+ "size": 524390
 }
