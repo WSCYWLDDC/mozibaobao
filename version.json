@@ -1,7 +1,7 @@
 {
- "versionCode": 22,
- "versionName": "1.22",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-22.apk",
- "notes": "修复封面视频不播放： - onResume 里 activityResumed 置位晚于 render()，导致选完视频返回时新建的封面行   立刻被 pause，之后又因为「只在主页才恢复」的限定再也没恢复 - 现在封面行建好后主动按当前可见性对齐播放状态，不再依赖切到主页 ",
+ "versionCode": 23,
+ "versionName": "1.23",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-23.apk",
+ "notes": "封面视频去掉圆角裁剪（决定性修复）： 诊断显示 isPlaying=true —— 内容确实在播，但被父容器的裁剪吃掉了。 TextureView 由 SurfaceFlinger 单独合成，不走父容器常规绘制流程， clipToOutline 和 dispatchDraw+clipPath 两种裁剪下都是空白。 现在视频格不做裁剪，先保证能看见（代价是直角）。 ",
  "size": 524390
 }
