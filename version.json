@@ -1,7 +1,7 @@
 {
- "versionCode": 5,
- "versionName": "1.5",
+ "versionCode": 6,
+ "versionName": "1.6",
  "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko.apk",
- "notes": "无（本次仅用于验证更新流程） ",
+ "notes": "（v5 已装，本次 v6 用于验证更新） ",
  "size": 507639
 }
