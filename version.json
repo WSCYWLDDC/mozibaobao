@@ -1,7 +1,7 @@
 {
- "versionCode": 26,
- "versionName": "1.26",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-26.apk",
- "notes": "修复视频四周的大黑边： - cropToFill 在 onPrepared 时容器还没布局，getWidth()=0 被保护判断挡掉，视频退回完整显示   → 改为 onPrepared 试一次 + post 到布局后补一次 + onSizeChanged 再补一次 - center-crop 的宽高判断写反了（那是 fit 不是 crop），竖屏视频放进偏宽容器会左右留黑   → 视频相对更高时铺满宽度、高",
- "size": 2212007
+ "versionCode": 27,
+ "versionName": "1.27",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-27.apk",
+ "notes": "视频横幅高度改为 2 厘米： 用屏幕物理 ydpi 换算（2cm ÷ 2.54 → 英寸 → ×ydpi），不是固定 dp 值， 这样在不同尺寸的手机上都是真实的 2 厘米。 ",
+ "size": 2216103
 }
