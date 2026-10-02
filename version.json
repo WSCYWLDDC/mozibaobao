@@ -1,7 +1,7 @@
 {
- "versionCode": 27,
- "versionName": "1.27",
- "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-27.apk",
- "notes": "视频横幅高度改为 2 厘米： 用屏幕物理 ydpi 换算（2cm ÷ 2.54 → 英寸 → ×ydpi），不是固定 dp 值， 这样在不同尺寸的手机上都是真实的 2 厘米。 ",
+ "versionCode": 28,
+ "versionName": "1.28",
+ "url": "https://raw.githubusercontent.com/WSCYWLDDC/mozibaobao/main/moko-28.apk",
+ "notes": "视频高度加滑块：设置 → 自定义背景 → 「视频高度」，0.5–6.5 厘米可调，拖动实时生效。 刻度内部是整数（厘米×10），显示时换算成\"2.0 厘米\"。 ",
  "size": 2216103
 }
